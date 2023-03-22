@@ -5,11 +5,12 @@ import { ErrorPage } from "./ErrorPage";
 import { Personage } from "./Personage";
 import { getCharacter } from "./Fetch";
 import { FirstPage } from "../components/FirstPage";
+import { Layout } from "./Layout";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <FirstPage />,
+    element: <Layout />,
     errorElement: <ErrorPage />,
     children: [
       {
