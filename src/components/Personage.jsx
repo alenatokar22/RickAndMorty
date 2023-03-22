@@ -7,7 +7,7 @@ export const Personage = () => {
 
   return (
     <div className="personage__page">
-      <NavLink className="back" onClick={"GO BACK"} to="/">
+      <NavLink className="back" onClick={"GO BACK"} to="/RickAndMorty/">
         <img className="back__img" src={arrow_back} alt="" />
         <p>GO BACK</p>
       </NavLink>
