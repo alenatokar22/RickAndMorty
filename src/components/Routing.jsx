@@ -7,12 +7,12 @@ import { Layout } from "./Layout";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/RickAndMorty/",
     element: <Layout />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/RickAndMorty/",
+        // path: "/RickAndMorty/",
         element: <App />,
         index: true,
       },
