@@ -1,10 +1,10 @@
 import { initializeApp } from "firebase/app";
 import { GoogleAuthProvider } from "firebase/auth";
 
-// const API_KEY = import.meta.env.VITE_API_KEY;
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD0Yq73RN_eGIowW0RullcREYYmqilWU14",
+  apiKey: API_KEY,
   authDomain: "character-14fe6.firebaseapp.com",
   projectId: "character-14fe6",
   storageBucket: "character-14fe6.appspot.com",
