@@ -12,9 +12,11 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
+        path: "/RickAndMorty/",
         element: <App />,
         index: true,
       },
+      // { path: "/RickAndMorty/", element: <App /> },
       {
         path: "/character/:characterId",
         element: <Personage />,
