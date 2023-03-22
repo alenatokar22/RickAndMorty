@@ -6,6 +6,8 @@ export const AuthProvider = () => {
   const auth = getAuth(authorization);
   const [user, setUser] = useState(auth.currentUser);
 
+  console.log(auth);
+
   useEffect(() => {
     const unsub = auth.onAuthStateChanged((maybeUser) => {
       if (maybeUser != null) {
