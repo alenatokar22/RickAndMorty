@@ -8,7 +8,7 @@ import { getCharacter } from "./Fetch";
 export const router = createBrowserRouter([
   {
     path: "/",
-    errorElement: <ErrorPage />,
+    // errorElement: <ErrorPage />,
     children: [
       {
         element: <App />,
