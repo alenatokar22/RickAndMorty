@@ -16,7 +16,6 @@ export const router = createBrowserRouter([
         element: <App />,
         index: true,
       },
-      // { path: "/RickAndMorty/", element: <App /> },
       {
         path: "/character/:characterId",
         element: <Personage />,
